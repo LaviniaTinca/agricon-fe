@@ -1,0 +1,6 @@
+@import "../../utils/scss/variables.scss";
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: $orange;
+}
