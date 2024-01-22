@@ -1,6 +1,6 @@
 import "./home.scss";
 import stroke from "../../assets/stroke-line.png";
-import strokeOrange1 from "../../assets/stroke-orange1.png";
+// import strokeOrange1 from "../../assets/stroke-orange1.png";
 import box1 from "../../assets/section1-box1.png";
 import box2 from "../../assets/section1-box2.png";
 import box3 from "../../assets/section1-box3.png";
@@ -26,7 +26,7 @@ const Home = () => {
       <section className="section1">
         <div className="color">
           <div className="color2">
-            <img src={strokeOrange1} alt="" />
+            {/* <img src={strokeOrange1} alt="stroke line" /> */}
           </div>
           <div className="boxes-container">
             <div className="box">
