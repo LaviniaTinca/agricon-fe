@@ -1,5 +1,5 @@
 # Agricon App
-This repository contains a web application project for a country farm. It is made based on [this Figma Design ](@https://www.figma.com/file/Jjw9Ky3kl0i2r6DO9ngkwn/Agricon-Desktop-(Community)-(Copy)?type=design&node-id=1-2&mode=design&t=Gj05UFt7SnHiMxU7-0)
+This repository contains a web application project for a country farm. It is made based on [this Figma Design](https://www.figma.com/file/9KjcV87upMPUzkQHhfwGNK/Agricon-Desktop-(Community)?type=design&node-id=0-1&mode=design&t=Ix1dSjbhRzInz6UB-0)
 
 This app uses React Js and Scss.
 You can check it [here on Netlify](https://lucent-gaufre-870c55.netlify.app)
