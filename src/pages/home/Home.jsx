@@ -10,6 +10,10 @@ import section2mill from "../../assets/section2-mill.png";
 import s2hicking from "../../assets/s2hicking.png";
 import s2leaf from "../../assets/s2leaf.png";
 import logoimg from "../../assets/logoimg.png";
+import s3tractor from "../../assets/s3tractor.png";
+import s3plantation from "../../assets/s3plantation.png";
+import s3vegetables from "../../assets/s3vegetables.png";
+import s3sheeps from "../../assets/s3sheeps.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -36,7 +40,6 @@ const Home = () => {
               </div>
             </div>
             <div className="box">
-              {" "}
               <img src={box2} alt="sunflower" />
               <div className="title-box">
                 <p>Quality Standards</p>
@@ -96,6 +99,47 @@ const Home = () => {
         </div>
         <div className="component">
           <img src={stroke2} alt="stroke2" />
+        </div>
+      </section>
+
+      {/* section 3 */}
+      <section className="section3">
+        <div className="top">
+          <img src={logoimg} alt="logo" />
+          <h3>OUR SERVICES LIST</h3>
+          <h2>What We are Offering</h2>
+        </div>
+        <div className="bottom">
+          <div className="bottom-box">
+            <div className="wrapper-box">
+              <img src={s3tractor} alt="tractor" />
+              <h3>Agriculture Products</h3>
+              <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut</p>
+            </div>
+          </div>
+          <div className="bottom-box">
+            <div className="wrapper-box">
+              <img src={s3plantation} alt="plantation" />
+              <h3>Organic Products</h3>
+              <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut</p>
+            </div>
+          </div>
+          <div className="bottom-box">
+            <div className="wrapper-box">
+              <img src={s3vegetables} alt="vegetables" />
+              <h3> Fresh Vegetables</h3>
+              <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut</p>
+            </div>
+          </div>
+          <div className="bottom-box">
+            <div className="wrapper-box">
+              <img src={s3sheeps} alt="sheeps" />
+              {/* <div className="wraper-box-title"> */}
+              <h3>Dairy Products</h3>
+              <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut</p>
+              {/* </div> */}
+            </div>
+          </div>
         </div>
       </section>
     </>
