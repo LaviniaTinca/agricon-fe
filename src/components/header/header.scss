@@ -1,6 +1,30 @@
 @import "../../utils/scss/variables.scss";
 .header {
+  max-width: var(--max-width);
+  height: 70px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  gap: 10px;
   background-color: $orange;
+  padding: 0 45px 0 45px;
+
+  img {
+    padding: auto;
+    width: 30px;
+    height: 30px;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3px;
+  }
 }
