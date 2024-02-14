@@ -23,6 +23,26 @@
       z-index: 2;
     }
   }
+
+  .carousel-buttons {
+    position: absolute;
+    top: 470px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+
+    & button {
+      padding: 10px;
+      background-color: $light-grey;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .active {
+      background-color: $dark-orange;
+    }
+  }
 }
 
 .section1 {
@@ -188,6 +208,7 @@
           font-size: large;
           font-weight: bold;
           background-color: $dark-orange;
+          border: none;
           border-radius: 20px;
           cursor: pointer;
         }
@@ -199,7 +220,7 @@
 .section3 {
   max-width: 100%;
   height: auto;
-  background-color: $light-grey;
+  background-color: $sand;
   display: flex;
   flex-direction: column;
   // align-items: center;
@@ -214,7 +235,7 @@
   }
 
   .bottom {
-    margin: 0 20px 0 20px;
+    margin: 0 100px 0 100px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -230,13 +251,18 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      position: relative;
 
-      .wrapper-box-title {
-        // display: flex;
-        // align-items: center;
-        // flex-direction: column;
-        // text-align: center;
+      & .round {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        bottom: -25px;
+        left: 137;
       }
+    }
+    & p {
+      text-align: center;
     }
   }
 
@@ -250,5 +276,57 @@
     color: $green2;
     font-size: 32px;
     font-weight: bold;
+  }
+}
+
+.section4 {
+  max-width: 100%;
+  height: auto;
+  background-color: $light-sand;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  .top {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .bottom {
+    margin: 0 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    // position: relative;
+
+    .bottom-box {
+      background-color: $white;
+      width: 295px;
+      height: 260px;
+    }
+  }
+
+  .s4btns {
+    text-align: center;
+    margin: 50px 0 50px 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+    button {
+      padding: 10px;
+      background-color: $white;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .active {
+      background-color: $dark-orange;
+    }
   }
 }

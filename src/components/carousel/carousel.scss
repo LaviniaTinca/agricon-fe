@@ -21,13 +21,13 @@
     display: flex;
     flex-direction: column;
 
-    & p {
+    p {
       color: $dark-orange;
       font-size: 24px;
       font-weight: semibold;
     }
 
-    & h1 {
+    h1 {
       color: $white;
       font-family: $kalam;
       font-size: 64px;

@@ -1,0 +1,107 @@
+@import "../../../utils/scss/variables.scss";
+
+.testimonials {
+  max-width: 100%;
+  height: 750px;
+  position: relative;
+  //background-image: url("/testimonials/backgroundTestimonials.png");
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .upper-container {
+      width: 100%;
+      height: 60%;
+      display: flex;
+      justify-content: space-around;
+
+      .carousel-text {
+        width: 10%;
+        padding-top: 100px;
+        color: $dark-orange;
+        font-weight: bold;
+
+        #vertical-text {
+          writing-mode: vertical-lr;
+          text-orientation: upright;
+        }
+      }
+
+      .carousel-details {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 20px;
+        color: $white;
+
+        img {
+          width: 60px;
+          height: 60px;
+        }
+      }
+
+      .carousel-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 10px;
+
+        button {
+          padding: 10px;
+          background-color: $light-grey;
+          border: none;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+        .active {
+          background-color: $dark-orange;
+        }
+      }
+    }
+
+    .bottom-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: $white;
+      .image-wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        img {
+          transition: transform 0.3s ease-in-out;
+          border: 5px solid transparent;
+          border-radius: 50%;
+        }
+
+        .active {
+          stroke: $dark-orange;
+          border-color: $dark-orange;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
